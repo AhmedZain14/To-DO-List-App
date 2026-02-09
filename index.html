@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="parent w-100 vh-100 bg-dark d-flex justify-content-center align-items-center flex-column">
+        <h1 class="text-center text-white mb-4">To Do List</h1>
+        <div class="form bg-white py-5 px-3 w-75 my-2">
+            <div class="inputContent py-3 px-3 d-flex">
+                <input id="mainInput" type="text" name="task" class="w-100  p-2 ">
+                <div class="plusIcon">
+                    <i id="plus" class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="display p-3">
+                <div id="allContent" class="displayContent p-3">
+                    <h3 id="noTasks" class="d-block">No Tasks To Show</h3>
+                </div>
+            </div>
+            <div class="btns w-100 d-flex justify-content-end">
+                <button id="finishBtn" class="btn btn-primary m-1">Finish</button>
+                <button id="deleteAll" class="btn btn-danger m-1">Delete</button>
+            </div>
+            <div class="p-2 text-primary fw-bold">
+                <button class="btn btn-info text-white">Total Tasks:<span id="count">0</span></button> 
+            </div>
+            <div class="p-2 text-primary fw-bold">
+                <button class="btn btn-success text-white">compelete:<span id="complete">0</span></button> 
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
